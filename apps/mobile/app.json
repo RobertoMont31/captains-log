@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "scheme": "captainslog",
+    "plugins": ["expo-router"],
+    "name": "Captains Log",
+    "slug": "captains-log",
+    "android": {
+      "package": "com.robertoMontufar.captainslog"
+    },
+    "ios": {
+      "bundleIdentifier": "com.robertoMontufar.captainslog"
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "extra": {
+      "router": {
+        "asyncRoutes": {
+          "web": true
+        }
+      },
+      "eas": {
+        "projectId": "7622f98c-5890-4226-87ed-9b22cc5a5e4b"
+      }
+    },
+    "owner": "robertomont31"
+  }
+}
